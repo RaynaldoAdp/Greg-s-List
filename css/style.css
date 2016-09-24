@@ -1,0 +1,100 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+nav {
+	font-size: 20px;
+	top:0 ;
+	height: 50px;
+	background-color: #dbdbdb;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+}
+
+nav ul li:nth-child(n+2) {
+	float: right;
+}
+
+.form input:nth-child(1) {
+	position: relative;
+	top: 50px;
+	left: 100px;
+	height: 25px;
+	width: 600px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+.form input:nth-child(2) {
+  	position: absolute;
+  	display: inline-block;
+  	cursor: pointer;
+  	height:25px;
+  	width:25px;
+  	border: 1px solid grey;
+  	top: 100px;
+  	left:710px;
+  	border-radius: 3px;
+}
+
+.searchnumber button:nth-child(1) {
+  	position: absolute;
+  	display: inline-block;
+  	cursor: pointer;
+ 	height: 35px;
+  	width: 100px;
+  	border: 1px solid grey;
+  	top: 150px;
+  	left: 100px;
+  	border-radius: 3px;
+  	background-color: white;
+}
+
+.searchnumber button:nth-child(2) {
+  	position: absolute;
+  	display: inline-block;
+  	cursor: pointer;
+ 	height: 35px;
+  	width: 300px;
+  	border: 1px solid grey;
+  	top: 150px;
+  	left: 200px;
+  	border-radius: 3px;
+  	background-color: white;	
+}
+
+.searchnumber button:nth-child(3) {
+  	position: absolute;
+  	display: inline-block;
+ 	cursor: pointer;
+  	height: 35px;
+  	width: 100px;
+  	border: 1px solid grey;
+  	top: 150px;
+  	left: 500px;
+  	border-radius: 3px;
+  	background-color: white;	
+}
+
+.searchresults {
+	position: absolute;
+	font-size: 20px;
+	top: 250px;
+	left: 100px;
+}
+
+.searchresults p {
+	color: grey;
+}
+
+.searchresults span {
+	color: blue;
+	margin: 0px 10px 0px 10px ;
+}
+
